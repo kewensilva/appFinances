@@ -16,7 +16,6 @@ export const Container = styled.View`
 `;
 
 export const Item = styled.View`
-
 `;
 
 export const ItemTitle = styled.Text`

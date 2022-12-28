@@ -1,7 +1,12 @@
 import React from "react";
 import { BalanceCurrent, BalanceExpenses, Container, Content, CurrentSymbol, Item, ItemTitle } from "./style";
 
-export function Balance({ balanceCurrent, balanceExpenses }) {
+interface Props {
+    balanceCurrent: string,
+    balanceExpenses: string
+}
+
+export function Balance({ balanceCurrent, balanceExpenses }: Props) {
     return (
         <Container>
             <Item>
