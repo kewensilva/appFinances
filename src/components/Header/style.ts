@@ -28,7 +28,6 @@ font-weight:bold;
 `;
 
 export const Profile = styled.TouchableOpacity`
-
 width: 44px;
 height: 44px;
 background-color: rgba('225,255,255, 0.5');
