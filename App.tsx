@@ -7,7 +7,6 @@ export default function App() {
   return (
     <Container>
       <Home name="Kewen Macedo Silva" />
-      <Content>Hello World</Content>
     </Container>
   )
 }

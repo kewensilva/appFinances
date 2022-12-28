@@ -6,5 +6,9 @@ export const Container = styled.View`
 `;
 
 export const Content = styled.Text`
-    
+    margin-left: 22px;
+    margin-right: 22px;
+    font-size: 18px;
+    margin-top: 18px;
+    font-weight: bold;
     `;
