@@ -1,4 +1,6 @@
+import { FlatList } from "react-native";
 import styled from "styled-components/native";
+import { IMov } from './index'
 
 export const Container = styled.View`
     flex: 1;
@@ -12,3 +14,7 @@ export const Content = styled.Text`
     margin-top: 18px;
     font-weight: bold;
     `;
+
+export const ListContent = styled(FlatList as new () => FlatList<IMov>)`
+padding:22px;
+`;
