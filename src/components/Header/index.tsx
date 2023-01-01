@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Content, Profile, UserName } from "./style";
+import { Container, Content, IconProfile, Profile, UserName } from "./style";
 import { Feather } from "@expo/vector-icons"
 
 interface Props {
@@ -12,7 +12,7 @@ export function Header({name}: Props){
             <Content>
                 <UserName>{name}</UserName>
                 <Profile>
-                    <Feather name="user" size={32} color={"#000"} />
+                    <IconProfile name="user-plus" />
                 </Profile>
             </Content>
         </Container>
