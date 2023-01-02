@@ -41,7 +41,3 @@ export const IconProfile = styled(Icon)`
 size: 48px;
 color: #000;
 `;
-
-
-
-

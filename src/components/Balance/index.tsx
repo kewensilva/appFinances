@@ -18,7 +18,7 @@ export function Balance({ balanceCurrent, balanceExpenses }: Props) {
             </Item>
 
             <Item>
-                <ItemTitle> Gastos </ItemTitle>
+                <ItemTitle> Despesas </ItemTitle>
                 <Content>
                     <CurrentSymbol> R$ </CurrentSymbol>
                     <BalanceExpenses> {balanceExpenses} </BalanceExpenses>
