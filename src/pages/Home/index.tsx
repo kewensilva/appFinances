@@ -19,21 +19,21 @@ export interface IMov {
 const Mov = [
     {
         id: "1",
-        titulo: 'boletos',
+        titulo: 'Transferências',
         price: '20,00',
         date: '20/12/2022',
         type: 0
     },
     {
         id: "2",
-        titulo: 'salário',
+        titulo: 'Recebimentos',
         price: '30,00',
         date: '02/12/2022',
         type: 1
     },
     {
         id: "3",
-        titulo: 'contas',
+        titulo: 'Pagamentos',
         price: '150,00',
         date: '28/12/2022',
         type: 0

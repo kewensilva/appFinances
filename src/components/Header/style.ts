@@ -1,7 +1,7 @@
 
 import styled from "styled-components/native";
 
-import Icon from "react-native-vector-icons/FontAwesome";
+import Icon from "react-native-vector-icons/Ionicons";
 
 export const Container = styled.View`
     align-items: center;

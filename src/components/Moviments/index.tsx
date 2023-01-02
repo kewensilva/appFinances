@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { Container, Content, Date, HidePrice, Price, Title } from "./style";
 
-
-
 interface Props {
     data: string
 }

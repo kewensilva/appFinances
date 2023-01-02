@@ -43,4 +43,4 @@ export const BalanceExpenses = styled.Text`
 color: #f00;
 font-size: 16px;
 font-weight: bold;
-`
+`;
